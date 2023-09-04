@@ -1,0 +1,51 @@
+.parents-card {
+  position: relative;
+}
+
+.card {
+  width: 353px;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  position: absolute;
+}
+.card:nth-child(3) {
+  /* left: 40%;
+  top: 40%; */
+  z-index: 2;
+  --z: 30px;
+}
+.card:nth-child(3):hover {
+  --z: 50px;
+}
+.card:nth-child(4) {
+  left: 5%;
+  top: 18%;
+  z-index: 1;
+  --z: 50px;
+}
+.card:nth-child(4):hover {
+  --z: 70px;
+}
+.card:nth-child(5) {
+  left: 10%;
+  top: 22%;
+  --z: -20px;
+}
+.card:nth-child(5):hover {
+  --z: 0;
+}
+
+.card:hover {
+  z-index: 5;
+}
+.card-image {
+  position: relative;
+  height: 450px;
+}
+.card-image > img {
+  max-width: 100%;
+  position: absolute;
+  /* height: 200px; */
+  object-fit: cover;
+  object-position: center;
+}

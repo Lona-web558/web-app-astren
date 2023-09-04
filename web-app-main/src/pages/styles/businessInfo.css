@@ -1,0 +1,17 @@
+.business_name {
+  width: 100%;
+  background-color: #00000080;
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  padding: 10px;
+}
+
+.business_phone_number .number .PhoneInputInput {
+  background-color: transparent;
+}
+
+.number {
+  border-bottom-width: 1px;
+  padding-bottom: 0.5rem;
+  background-color: transparent;
+}

@@ -1,0 +1,12 @@
+.section {
+  position: relative;
+  top: 4px;
+  left: 9%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #c03897;
+  pointer-events: none;
+  z-index: 1;
+}
